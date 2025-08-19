@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Wild Oasis
 
-## Getting Started
+**The Wild Oasis** is een full-stack Next.js project gebouwd met de **App Router**, waarin gebruikers cabines kunnen bekijken, reserveren en beheren. Het project combineert server- en clientcomponenten, data fetching met Supabase, en gebruikersauthenticatie met NextAuth.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Functionaliteiten
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Home Page
+- Hero sectie met een actieknop **"Explore Cabins"** die naar de cabinespagina leidt.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Cabins Page
+- Overzicht van alle cabines met:
+  - Prijs
+  - Aantal gasten
+  - Knop voor **Details** & **Reservation**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Cabin Details Page (`/cabins/[cabinId]`)
+- Toont alle details van een geselecteerde cabine.
+- Kalender om een reservering te maken (inloggen vereist).
 
-## Learn More
+### Account
+- **/account/reservations**:
+  - Gebruikers kunnen hun reserveringen bekijken.
+  - Reserveringen verwijderen of aanpassen.
+- **/account/profile**:
+  - Gebruikers kunnen hun profielgegevens updaten.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologieën
+  - **Next.js (App Router)** met server- en clientcomponenten
+  - **React** (inclusief Context API voor state management)  
+  - **Supabase**:
+  - Data fetching
+  - Data mutation (create, update, delete)
+   - **NextAuth**:
+  - Inloggen en uitloggen
+  - Autorisatie
+  -**date-fns** voor datumfunctionaliteiten en kalenderweergave;
+  - **Heroicons** voor iconen
+  - **Tailwind CSS** voor styling
+  - **Server Actions** voor:
+  - Profiel bijwerken
+  - Reserveringen maken, updaten en verwijderen
+  - **Caching** en **shared states** tussen server- en clientcomponenten
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Home Page
+![Home Page](thewildoasis-homepage.jpg)
+
+### Cabins Page
+![Cabins Page](thewildoasis-cabins.jpg)
+
+### Cabin Details
+![Cabin Details Page](thewildoasis-cabins-cabinId.jpg)
+
+
+### Login Page
+![Login Page](thewildoasis-loginpage.jpg)
