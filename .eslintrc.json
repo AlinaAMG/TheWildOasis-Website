@@ -1,3 +1,8 @@
-{
-  "extends": "next/core-web-vitals"
-}
+// {
+//   "extends": ["next/core-web-vitals"],
+//   "rules": {
+//     // Hier kan je regels uitzetten of aanpassen, bijvoorbeeld:
+//     "react/react-in-jsx-scope": "off",
+//     "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }]
+//   }
+// }
