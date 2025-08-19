@@ -48,14 +48,14 @@
 ## Screenshots
 
 ### Home Page
-![Home Page](thewildoasis-homepage.jpg)
+![Home Page]([thewildoasis-homepage.jpg](https://github.com/AlinaAMG/TheWildOasis-Website/blob/master/public/thewildoasis-homepage.jpg)
 
 ### Cabins Page
-![Cabins Page](thewildoasis-cabins.jpg)
+![Cabins Page](https://github.com/AlinaAMG/TheWildOasis-Website/blob/master/public/thewildoasis-cabins.jpg)
 
 ### Cabin Details
-![Cabin Details Page](thewildoasis-cabins-cabinId.jpg)
+![Cabin Details Page](https://github.com/AlinaAMG/TheWildOasis-Website/blob/master/public/thewildoasis-cabins-cabinId.jpg)
 
 
 ### Login Page
-![Login Page](thewildoasis-loginpage.jpg)
+![Login Page]([thewildoasis-loginpage.jpg](https://github.com/AlinaAMG/TheWildOasis-Website/blob/master/public/thewildoasis-loginpage.jpg)
