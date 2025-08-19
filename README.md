@@ -2,6 +2,10 @@
 
 **The Wild Oasis** is een full-stack Next.js project gebouwd met de **App Router**, waarin gebruikers cabines kunnen bekijken, reserveren en beheren. Het project combineert server- en clientcomponenten, data fetching met Supabase, en gebruikersauthenticatie met NextAuth.
 
+## 🚀 Live Demo
+
+De website is online te bekijken via Vercel:  
+👉 [The Wild Oasis Website](https://the-wild-oasis-website-woad-kappa.vercel.app/)
 
 ## Functionaliteiten
 
@@ -48,7 +52,7 @@
 ## Screenshots
 
 ### Home Page
-![Home Page]([thewildoasis-homepage.jpg](https://github.com/AlinaAMG/TheWildOasis-Website/blob/master/public/thewildoasis-homepage.jpg)
+![Home Page](https://github.com/AlinaAMG/TheWildOasis-Website/blob/master/public/thewildoasis-homepage.jpg)
 
 ### Cabins Page
 ![Cabins Page](https://github.com/AlinaAMG/TheWildOasis-Website/blob/master/public/thewildoasis-cabins.jpg)
@@ -58,4 +62,4 @@
 
 
 ### Login Page
-![Login Page]([thewildoasis-loginpage.jpg](https://github.com/AlinaAMG/TheWildOasis-Website/blob/master/public/thewildoasis-loginpage.jpg)
+![Login Page](https://github.com/AlinaAMG/TheWildOasis-Website/blob/master/public/thewildoasis-loginpage.jpg)
